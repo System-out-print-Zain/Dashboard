@@ -1,0 +1,61 @@
+/*Preliminary Styling*/
+* {
+    margin: 0px;
+ }
+
+ :root {
+    font-family: monospace;
+    height: 100%;
+ }
+
+ body {
+    height: 100%;
+ }
+
+ svg {
+    width: 50%;
+    height: 50%;
+ }
+
+ /*Main grid*/
+
+ .container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    grid-template-rows: 0.4fr 3fr 0.3fr;
+    grid-template-areas: 
+    "sidebar header header"
+    "sidebar courses annoucements"
+    "footer footer footer";
+ }
+
+ .header {
+    background-color: lightcoral;
+    grid-area: header;
+ }
+
+ .title {
+    font-size: 25px;
+ }
+
+ .sidebar {
+    background-color: lightcyan;
+    grid-area: sidebar;
+ }
+
+ .courses {
+    background-color: lightgoldenrodyellow;
+    grid-area: courses;
+ }
+
+ .announcements {
+    background-color: lightgreen;
+    grid-area: annoucements;
+ }
+
+ .footer {
+    background-color: lightseagreen;
+    grid-area: footer;
+ }
+
