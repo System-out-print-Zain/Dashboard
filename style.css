@@ -108,11 +108,8 @@
  .cards {
     display: grid;
     margin: 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
     gap: 15px;
-    width: 500px;
-    height: 120px;
  }
 
  .course {
@@ -145,3 +142,4 @@
     align-items: center;
  }
 
+/*886px*/
