@@ -31,14 +31,14 @@
  }
 
  .header {
-    background-color: lightcoral;
     grid-area: header;
  }
 
  .title {
-    font-size: 25px;
-    margin-left: 10px;
+    font-size: 30px;
+    margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 15px;
  }
 
  .sidebar {
