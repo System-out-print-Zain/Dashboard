@@ -54,11 +54,11 @@
  }
 
  a {
-    color: yellow;
+    color: white;
  }
 
  a:hover {
-    color: white;
+    color: yellow;
  }
 
  .logo {
