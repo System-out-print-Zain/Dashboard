@@ -128,6 +128,15 @@
     grid-area: annoucements;
  }
 
+ .announcements > h2 {
+    margin-bottom: 20px;
+ }
+
+ .section {
+    display: grid;
+    gap: 10px;
+ }
+
  .footer {
     background-color: rgb(250, 250, 250);
     grid-area: footer;
