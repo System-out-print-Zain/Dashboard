@@ -22,7 +22,7 @@
  .container {
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 4fr 2fr;
+    grid-template-columns: 80px 4fr 2fr;
     grid-template-rows: 0.4fr 3fr 0.3fr;
     grid-template-areas: 
     "sidebar header header"
@@ -37,11 +37,32 @@
 
  .title {
     font-size: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
  }
 
  .sidebar {
-    background-color: lightcyan;
+    background-color: skyblue;
     grid-area: sidebar;
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+ }
+
+ .side {
+    margin-left: 5px;
+    font-weight: bold;
+ }
+
+ a {
+    color: yellow;
+ }
+
+ a:hover {
+    color: white;
+ }
+
+ .logo {
+    margin-left: 10px;
  }
 
  .courses {
