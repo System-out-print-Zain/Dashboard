@@ -22,7 +22,7 @@
  .container {
     height: 100%;
     display: grid;
-    grid-template-columns: 80px 4fr 2fr;
+    grid-template-columns: 85px 4fr 2fr;
     grid-template-rows: 0.4fr 3fr 0.3fr;
     grid-template-areas: 
     "sidebar header header"
@@ -41,11 +41,17 @@
     margin-bottom: 15px;
  }
 
+ .header hr {
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
  .sidebar {
     background-color: skyblue;
     grid-area: sidebar;
     display: grid;
     grid-template-rows: 80px 80px 80px 80px 80px;
+    padding-top: 15px;
  }
 
  .side {
@@ -55,6 +61,12 @@
 
  a {
     color: white;
+    text-decoration: none;
+    font-size: 105%;
+ }
+
+ .dashboard a {
+    color: black;
  }
 
  a:hover {
@@ -62,12 +74,49 @@
  }
 
  .logo {
-    margin-left: 10px;
+    margin-left: 12px;
  }
 
  .courses {
-    background-color: lightgoldenrodyellow;
     grid-area: courses;
+ }
+
+ .course-head {
+    text-align: center;
+ }
+
+ .tag {
+    height: 100px;
+ }
+
+ .stats .tag {
+    background-color: red;
+ }
+
+ .philos .tag {
+    background-color: green;
+ }
+
+ .math .tag {
+    background-color: orange;
+ }
+
+ .cs .tag {
+    background-color: pink;
+ }
+
+ .cards {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    width: 500px;
+    height: 120px;
+ }
+
+ .course {
+    box-shadow: 2px 2px 2px 2px;
  }
 
  .announcements {
